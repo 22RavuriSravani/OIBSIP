@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Pangolin&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Lugrasimo&family=Pangolin&family=Roboto+Slab&display=swap');
+
+
+body{
+    width: 100%;
+    height: 85vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+
+.text-center i{
+    color:darkgreen;
+    font-size: larger;
+}
+form h1 {
+    color: darkviolet;
+    font-size:50px;
+    margin-top:20px;
+    padding: 10px 10px;
+    align-items: center;
+    text-transform: uppercase;
+    color: transparent;
+    text-shadow: 0 0 0 #33333333;
+    background:linear-gradient(to right,rgb(55, 119, 49), rgb(77, 185, 155),#fc00ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Lugrasimo', cursive;
+
+}
+
+form{
+  
+backdrop-filter:blur(1px);
+-webkit-backdrop-filter: blur(10px);
+box-shadow: 0 2px  32px 0 ;
+border:5px solid none;
+border-radius: 30px;
+box-sizing: border-box;
+position: relative;
+max-width: 800px;
+height:200px auto ;
+padding: 20px;
+margin: 80px auto;
+padding-top: 100px;
+padding-bottom: 50px;
+justify-content: center;
+align-items: center;
+font-family: 'Pangolin', cursive;
+
+}
+
+.col #temp{
+    box-sizing: border-box;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    border:2px solid #a09121;
+    margin-top:  8px;
+    margin-left: 40%;
+    padding-left: 30px;
+    align-items: center;
+    justify-self:center;
+}
+
+.col #temp_diff{
+    box-sizing: border-box;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    border:2px solid #a09121;
+    margin-top:  8px;
+    margin-right: 40%;
+    padding-left: 30px;
+    align-items: center;
+    justify-self: center;
+
+}
+.btn{
+    margin-top: 20px;
+    padding-left: 10px;
+    width: 20%;
+    height: 10%;
+    border: 2px dashed olivedrab;
+    margin-top: 30%;
+    font-size: 30px;
+    color:darkolivegreen;
+    font-family: 'Pangolin', cursive;
+}
+
+.btn:hover{
+    background-color: #a09121;
+    color:whitesmoke;
+ 
+}
+
+#tempCalc label{
+    font-size: 30px;
+}
+
+
+#resultContainer{
+    font-size: 35px;
+    color:black;
+    font-weight: bolder;
+    font-family: 'Lugrasimo', cursive;
+    
+}
+
